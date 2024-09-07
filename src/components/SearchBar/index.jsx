@@ -13,7 +13,7 @@ const SearchBar = () => {
      })}>
         <div className='m-5 p-2 flex items-center justify-left w-[60vw] bg-white rounded-2xl max-lg:w-[80vw]'>
           <img className='w-7' src="/search.svg" alt="" />
-          <input type="text" placeholder='Search' className='m-2 w-full'/>
+          <input type="text" placeholder='Search' className='m-2 w-full' style="color:black;"/>
         </div>
         <div className={classNames({
           'w-[30vw] pr-11': true,
